@@ -7,11 +7,15 @@
   <style>
     body {
       font-family: Georgia, serif;
-      max-width: 600px;
-      margin: 80px auto;
-      padding: 0 20px;
+      margin: 0;
+      padding: 0;
       color: #222;
       background: #fff;
+    }
+    .header {
+      max-width: 600px;
+      margin: 80px auto 20px;
+      padding: 0 20px;
     }
     h1 {
       font-size: 2rem;
@@ -24,13 +28,20 @@
     .course-title {
       font-weight: bold;
     }
-
+    iframe {
+      display: block;
+      width: 100%;
+      height: 1600px;
+      border: none;
+    }
   </style>
 </head>
 <body>
-  <h1>Lidio Jaimes Jr</h1>
-  <p>Welcome to my website. This is for Homework 5 of my class <span class="course-title">Data Science for Public Health in Python</span>.</p>
-  <iframe src="sankey.html" width="100%" height="1600px" frameborder="0"></iframe>
+  <div class="header">
+    <h1>Lidio Jaimes Jr</h1>
+    <p>Welcome to my website. This is for Homework 5 of my class <span class="course-title">Data Science for Public Health in Python</span>.</p>
+  </div>
+  <iframe src="sankey.html"></iframe>
 
 </body>
 </html>
